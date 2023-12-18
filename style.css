@@ -1,0 +1,76 @@
+body{
+    background-color: aqua;
+    background-image: url('bg1.jpg');
+    background-size: cover;
+}
+
+#lt1{
+    font-family: Brush Script MT;
+    font-size:250px;
+    color:rgb(0, 255, 38);
+    position:absolute;
+    top:15px;
+    left:20%;
+} 
+
+#lt2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100px;
+    color:rgb(252, 254, 250);
+    position:absolute;
+    top:190px;
+    left:830px;
+}
+    
+    
+#titre{
+    position: absolute;
+    top: 180px;
+    left:1180px;
+    font-family:Brush Script MT;
+    font-size: 50px;
+    color:blueviolet;
+    
+}
+
+#imageConnection{
+    height: 400px;
+    width: 280px;
+    position:absolute;
+    top:20%;
+    left: 60.5%;
+    border-radius: 20px;
+    z-index: -1;
+
+}
+
+#utilisateur{
+    height: 30px;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    position:absolute;
+    top: 35%;
+    left:61%;
+}
+#password{
+    height: 30px;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    position:absolute;
+    top: 40%;
+    left:61%;
+}
+#connecter{
+    position: absolute;
+    top: 50%;
+    left:68%;
+    height: 60px;
+    width: 100px;
+    border-radius: 20px
+}
+#connecter:hover,
+#connecter:active {
+background-color: #a600ff; /* Changer la couleur selon vos préférences */
+}
