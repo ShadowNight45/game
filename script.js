@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
          var utilisateur = document.getElementById('utilisateur').value;
          var password = document.getElementById('password').value;
     
-        if (utilisateur === "Hitman3" && password === "PaoloAmoureuxHameed") {
+        if (utilisateur === "BD-89" && password === "ABCD") {
             window.location.href = 'https://www.filecrypt.cc/Container/650D711AAB.html';
         } else {
             alert("Mauvaise Combinaison");
